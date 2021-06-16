@@ -14,7 +14,7 @@
         </div>
         <div class="row d-flex justify-content-center">
             <div class="col-md d-flex justify-content-center" >
-                <div class=" pt-3 w-25" style="border-bottom:1px solid #CCC;">
+                <div class=" pt-3 w-25" >
                 </div>
             </div>
         </div>
