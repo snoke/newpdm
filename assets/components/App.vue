@@ -5,7 +5,7 @@
     <div class="jumbotron  shadow">
       <div class="row">
         <div class=" col d-flex justify-content-center pt-2">
-        <h1>PDM</h1>
+        <h1 class="fw-bold text-primary fst-italic">PDM</h1>
         </div>
       </div>
       <div class="row">

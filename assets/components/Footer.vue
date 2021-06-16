@@ -15,14 +15,14 @@
             <div class="col-md d-flex justify-content-center">
             </div>
             <div class="col-md d-flex justify-content-center">
-                <span class="card-body text-center"><i style=";" class="fas fa-balance-scale"></i><router-link  to="/Impressum"> Impressum</router-link>
-                    <p class="row card-text text-center"></p>
-                </span>
+                <div class="card-body text-center" ><i style=";" class="fas fa-balance-scale"></i>
+                    <p class="row card-text text-center"  style="font-size:0.9rem;"><router-link  to="/Impressum"> Impressum</router-link></p>
+                </div>
             </div>
             <div class="col-md d-flex justify-content-center">
-                <div class="card-body text-center justify-content-center text-primary">
-                    <i style=";" class="fas fa-user text-dark"></i> PDM GmbH
-                    <p class="row text-center justify-content-center text-dark" style="font-size:0.9rem;">Max Mustermann<br />
+                <div class="card-body text-center justify-content-center text-primary fw-bold fst-italic">
+                     PDM GmbH
+                    <p class="row text-center justify-content-center text-dark fw-normal" style="font-size:0.9rem;">
                     Pdmstraße 123<br />
                     12345 Pdmstadt</p>
                 </div>
