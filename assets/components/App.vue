@@ -3,6 +3,18 @@
     <Banner />
     <Navbar />
     <div class="jumbotron  shadow">
+      <div class="row">
+        <div class=" col d-flex justify-content-center pt-2">
+        <h1>PDM</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class=" col d-flex justify-content-center pt-2">
+        <p> Ihr&nbsp;</p>
+        <p id="typewriter"></p><vue-typer :text=this.text ></vue-typer>
+        <p>&nbsp;Partner in folgenden Bereichen</p>
+        </div>
+      </div>
       <div id="body_container">
         <transition name="fade" mode="out-in" >
           <router-view/>
@@ -14,6 +26,8 @@
 </template>
 
 <script>
+var VueTyper = window.VueTyper.VueTyper
+var VueTyper = require('vue-typer').VueTyper
 import Navbar from './Navbar.vue';
 import Banner from './Banner.vue';
 import Card from './Card.vue';
@@ -24,10 +38,14 @@ export default {
      Navbar,
      Banner,
      Card,
-     Footer
+     Footer,
+     VueTyper
   },
   data () { 
     return {
+      text: [
+        'kompetenter','erfahrener','preiswerter','zuverlässiger','schneller','unkomplizierter'
+      ]
     }
   },
   created () {
