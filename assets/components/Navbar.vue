@@ -20,7 +20,7 @@
                  <li class="nav-item divider"></li>
 
                 <li class="nav-item">
-                  <a  href="#Kontakt"  class="nav-link" ><i style=";" :class='"fas fa-envelope"'></i> Kontakt</a>
+                  <a @click="scrollToElement" href="#Kontakt"  class="nav-link" ><i style=";" :class='"fas fa-envelope"'></i> Kontakt</a>
                 </li>
               </ul>
           </div>
@@ -43,8 +43,20 @@
       };
     },
     methods: {
+      scrollToElement() {
+          // Use el.scrollIntoView() to instantly scroll to the element
+                document.getElementById('Kontakt').scrollIntoView({
+        behavior: "smooth"
+      });
+      }
     },
-    mounted() {
+  mounted() {
+    this.scrollToElement();
+  },
+    computed: {
+    currentRouteName() {
+        return this.$route.name;
     }
+}
   };
 </script>

@@ -1,5 +1,5 @@
 <template>
-    <div id="Kontakt" class="ContactForm">
+    <div id="Kontakt" class="ContactForm" ref="contactForm">
       <h3 class="text-center w-100">Kontakt</h3>
         <div class="row d-flex justify-content-center">
             <div class="col-md d-flex justify-content-center" >
