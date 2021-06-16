@@ -20,7 +20,7 @@
                  <li class="nav-item divider"></li>
 
                 <li class="nav-item">
-                  <a  href="#contactForm"  class="nav-link" ><i style=";" :class='"fas fa-envelope"'></i> Kontakt</a>
+                  <a  href="#Kontakt"  class="nav-link" ><i style=";" :class='"fas fa-envelope"'></i> Kontakt</a>
                 </li>
               </ul>
           </div>
