@@ -3,7 +3,12 @@
     <Banner />
     <Navbar /><div class="jumbotron  shadow"  style="" >
       <div id="body_container">
-    <router-view></router-view></div></div>
+              <transition
+        name="fade"
+        mode="out-in"
+      >
+        <router-view/>
+      </transition></div></div>
     <ContactTeaser  class="footer"  style="; "/>
   </div> 
 </template>
