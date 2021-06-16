@@ -13,7 +13,7 @@
         </div>
         <div class="row d-flex justify-content-center">
             <div class="col-md d-flex justify-content-center">
-                <div class="card-body text-center justify-content-center" style="font-size:0.8rem;">
+                <div class="card-body text-center justify-content-center">
                     <i style=";" class="fas fa-user"></i> Max Mustermann
                     <p class="row text-center justify-content-center" style="font-size:0.8rem;">PDM GmbH<br />
                     Pdmstraße 123<br />
@@ -36,7 +36,7 @@
         </div>
         <div class="row d-flex justify-content-center">
             <div class="col-md d-flex justify-content-center">
-                <div class="card-body text-center"  style="font-size:0.8rem;"><i style=";" class="fas fa-copyright"></i> code & design
+                <div class="card-body text-center" ><i style=";" class="fas fa-copyright"></i> code & design
                     <p class="row card-text text-center"  style="font-size:0.8rem;"><a href="https://www.stefan-sander.online" target="_blank">stefan-sander</a></p>
                 </div>
             </div>
