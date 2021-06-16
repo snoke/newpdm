@@ -32,7 +32,7 @@ Vue.use(VueRouter)
 const router = new VueRouter({  
     mode:'history',
     scrollBehavior: function(to, from, savedPosition) {
-            return {selector: '#body_container',behavior: 'smooth'}
+            return {selector: '#body_container'}
             //Or for Vue 3:
             //return {el: to.hash}
     },

@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light shadow">
       <div class="container-fluid">
         <router-link class="navbar-brand" to="/">PDM</router-link> 
                 <a href="tel:#"  class="nav-link" ><i style=";" :class='"fas fa-phone"'></i> 0190-666666</a>
