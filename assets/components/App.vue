@@ -2,7 +2,8 @@
   <div style="height:100%;">
     <Banner />
     <Navbar /><div class="jumbotron  shadow"  style="" >
-    <router-view></router-view></div>
+      <div id="body_container">
+    <router-view></router-view></div></div>
     <ContactTeaser  class="footer"  style="; "/>
   </div> 
 </template>

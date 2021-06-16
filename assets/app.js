@@ -31,6 +31,11 @@ Vue.config.productionTip = false
 Vue.use(VueRouter)
 const router = new VueRouter({  
     mode:'history',
+    scrollBehavior: function(to, from, savedPosition) {
+            return {selector: '#body_container',behavior: 'smooth'}
+            //Or for Vue 3:
+            //return {el: to.hash}
+    },
     routes: [
         { 
                 name: "PDM",
@@ -54,7 +59,7 @@ const router = new VueRouter({
                 name: "Impressum",
                 path: '/Impressum', 
                 component:  Impressum,
-                props: true,
+                props: true            
         },
         { 
                 name: "Umzug",

@@ -13,9 +13,15 @@
         </div>
         <div class="row d-flex justify-content-center">
             <div class="col-md d-flex justify-content-center">
+                <div class="card-body text-center"><i style=";" class="fas fa-balance-scale"></i><router-link  class="nav-link" to="/Impressum"> Impressum</router-link>
+                    <p class="row card-text text-center"></p>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md d-flex justify-content-center">
                 <div class="card-body text-center"><i style=";" class="fas fa-copyright"></i> code & design
                     <p class="row card-text text-center"><a href="https://www.stefan-sander.online" target="_blank">stefan-sander</a></p>
-
                 </div>
             </div>
         </div>
