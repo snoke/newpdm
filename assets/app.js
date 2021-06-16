@@ -35,6 +35,7 @@ const router = new VueRouter({
             if (this.currentRoute.name!='PDM') {
                 return {selector: '#body_container'}
             }
+            return {selector: '#top'}
             //Or for Vue 3:
             //return {el: to.hash}
     },
