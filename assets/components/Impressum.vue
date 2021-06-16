@@ -2,7 +2,7 @@
   <div class="container"  id="Impressum">
     <div class="row">
       <div class="card col-lg  pt-2  shadow">
-        <div class="card-body">
+        <div class="card-body text-primary">
           <i style="float:right;" :class='"fas fa-balance-scale"'></i>
             <h2 class="card-title text-center w-100" style="font-size:1.8rem;">Impressum</h2>
             

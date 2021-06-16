@@ -9,13 +9,10 @@
         </div>
 <form class="pt-3">
   <div class="form-group">
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ihre Email">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email oder Telefonnummer">
   </div>  
   <div class="form-group">
-    <input type="phone" class="form-control" id="exampleInputPhone1" aria-describedby="phoneHelp" placeholder="Ihre Telefonnummer">
-  </div>  
-  <div class="form-group">
-    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Ihre Nachricht"></textarea>
+    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Nachricht"></textarea>
   </div>
   <div class="text-center w-100">
   <button type="submit" class="btn btn-primary">Submit</button></div>
