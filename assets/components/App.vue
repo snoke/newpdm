@@ -20,8 +20,8 @@
           <router-view/>
         </transition>
       </div>
-    </div>
     <Footer  class="footer" />
+    </div>
   </div> 
 </template>
 

@@ -3,7 +3,7 @@
       <h3 class="text-center w-100  text-primary">Kontakt</h3>
         <div class="row d-flex justify-content-center">
             <div class="col-md d-flex justify-content-center" >
-                <div class=" pt-1 w-75" style="border-bottom:1px solid #CCC;">
+                <div class=" pt-1 w-50" style="border-bottom:1px solid #CCC;">
                 </div>
             </div>
         </div>
