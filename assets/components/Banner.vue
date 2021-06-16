@@ -1,5 +1,5 @@
 <template>
-    <div class="banner">banner
+    <div class="banner"><img class="banner_img" src="/new-home.jpg" />
     </div>
 </template>
 <script>
