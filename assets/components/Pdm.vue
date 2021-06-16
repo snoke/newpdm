@@ -26,10 +26,10 @@
 </template>
 <script>
 import Card from './Card.vue';
-import ContactTeaser from './ContactTeaser.vue';
+import Footer from './Footer.vue';
   export default {
   components: {
-     Card,ContactTeaser
+     Card,Footer
   },
   name: "Pdm",
   };

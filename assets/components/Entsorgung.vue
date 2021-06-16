@@ -21,11 +21,11 @@
   </div>
 </template>
 <script>
-import ContactTeaser from './ContactTeaser.vue';
+import Footer from './Footer.vue';
   export default {
   name: "Entsorgung",
   components: {
-    ContactTeaser
+    Footer
   }
   };
 </script>

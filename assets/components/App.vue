@@ -9,7 +9,7 @@
         </transition>
       </div>
     </div>
-    <ContactTeaser  class="footer" />
+    <Footer  class="footer" />
   </div> 
 </template>
 
@@ -17,14 +17,14 @@
 import Navbar from './Navbar.vue';
 import Banner from './Banner.vue';
 import Card from './Card.vue';
-import ContactTeaser from './ContactTeaser.vue';
+import Footer from './Footer.vue';
 export default {
   name: "App",
   components: {
      Navbar,
      Banner,
      Card,
-     ContactTeaser
+     Footer
   },
   data () { 
     return {

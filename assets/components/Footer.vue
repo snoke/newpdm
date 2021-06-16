@@ -46,7 +46,7 @@
 <script>
 import ContactForm from './ContactForm.vue';
   export default {
-  name: "ContactTeaser",
+  name: "Footer",
   components: {
       ContactForm
   }
