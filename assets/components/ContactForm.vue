@@ -15,7 +15,7 @@
     <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Nachricht"></textarea>
   </div>
   <div class="text-center w-100">
-  <button type="submit" class="btn btn-primary">Submit</button></div>
+  <button type="submit" class="btn btn-primary">Nachricht senden <i style=";" class="fas fa-envelope"></i></button></div>
 </form>
 
     </div>
