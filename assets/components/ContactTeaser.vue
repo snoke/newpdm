@@ -13,9 +13,9 @@
         </div>
         <div class="row d-flex justify-content-center">
             <div class="col-md d-flex justify-content-center">
-                <div class="card-body text-center justify-content-center">
+                <div class="card-body text-center justify-content-center text-primary">
                     <i style=";" class="fas fa-user"></i> Max Mustermann
-                    <p class="row text-center justify-content-center" style="font-size:0.8rem;">PDM GmbH<br />
+                    <p class="row text-center justify-content-center text-dark" style="font-size:0.8rem;">PDM GmbH<br />
                     Pdmstraße 123<br />
                     12345 Pdmstadt</p>
                 </div>

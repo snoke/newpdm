@@ -12,7 +12,7 @@
                 </div>
             </div>
         </div>
-          <p class="row card-text p-3">Transport</p>
+          <p class="row card-text p-3 text-dark">Transport</p>
         </div>
       </div>
     </div>

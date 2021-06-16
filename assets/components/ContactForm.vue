@@ -1,6 +1,6 @@
 <template>
     <div id="Kontakt" class="ContactForm" ref="contactForm">
-      <h3 class="text-center w-100">Kontakt</h3>
+      <h3 class="text-center w-100  text-primary">Kontakt</h3>
         <div class="row d-flex justify-content-center">
             <div class="col-md d-flex justify-content-center" >
                 <div class=" pt-1 w-75" style="border-bottom:1px solid #CCC;">

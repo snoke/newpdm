@@ -12,7 +12,7 @@
                 </div>
             </div>
         </div>
-          <p class="row card-text p-3">Umzug</p>
+          <p class="row card-text p-3 text-dark">Umzug</p>
         </div>
       </div>
     </div>

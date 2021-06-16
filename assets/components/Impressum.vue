@@ -12,7 +12,7 @@
                 </div>
             </div>
         </div>
-          <p class="row card-text p-3">Impressum</p>
+          <p class="row card-text p-3 text-dark">Impressum</p>
         </div>
       </div>
     </div>
