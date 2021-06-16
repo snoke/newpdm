@@ -9,7 +9,7 @@
         </div>
 <form class="pt-3">
   <div class="form-group">
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email oder Telefonnummer">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email oder Telefonnr.">
   </div>  
   <div class="form-group">
     <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Nachricht"></textarea>

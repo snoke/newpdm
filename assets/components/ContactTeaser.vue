@@ -17,7 +17,7 @@
                     <i style=";" class="fas fa-user"></i> Max Mustermann
                     <p class="row text-center justify-content-center" style="font-size:0.8rem;">PDM GmbH<br />
                     Pdmstraße 123<br />
-                    12345 Pdmstadt 123</p>
+                    12345 Pdmstadt</p>
                 </div>
             </div>
         </div>
@@ -30,7 +30,7 @@
         </div>
         <div class="row d-flex justify-content-center">
             <div class="col-md d-flex justify-content-center" >
-                <div class=" pt-3 w-50" style="border-bottom:1px solid #CCC;">
+                <div class=" pt-1 w-50" style="border-bottom:1px solid #CCC;">
                 </div>
             </div>
         </div>
