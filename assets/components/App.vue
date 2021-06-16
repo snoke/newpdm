@@ -11,8 +11,8 @@
       <div class="row">
         <div class=" col d-flex justify-content-center pt-2">
         <p> Ihr&nbsp;</p>
-        <p id="typewriter"></p><vue-typer :text=this.text ></vue-typer>
-        <p>&nbsp;Partner in folgenden Bereichen</p>
+        <p id="typewriter"></p><nobr><vue-typer :text=this.text ></vue-typer></nobr>
+        <p>&nbsp;Partner</p>
         </div>
       </div>
       <div id="body_container">
