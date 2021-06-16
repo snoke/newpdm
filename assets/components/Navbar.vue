@@ -50,9 +50,6 @@
       });
       }
     },
-  mounted() {
-    this.scrollToElement();
-  },
     computed: {
     currentRouteName() {
         return this.$route.name;
