@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
       <div class="container-fluid">
-        <router-link class="navbar-brand" to="/app">PDM</router-link> 
+        <router-link class="navbar-brand" to="/">PDM</router-link> 
                 <a href="tel:#"  class="nav-link" ><i style=";" :class='"fas fa-phone"'></i> 0190-666666</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -20,7 +20,7 @@
                  <li class="nav-item divider"></li>
 
                 <li class="nav-item">
-              <a href="/app/Impressum"  class="nav-link" ><i style=";" :class='"fas fa-balance-scale"'></i> Impressum</a>
+              <a href="/Impressum"  class="nav-link" ><i style=";" :class='"fas fa-balance-scale"'></i> Impressum</a>
                 </li>
               </ul>
           </div>
@@ -36,9 +36,9 @@
     data() {
       return {
         items: [
-         {name:'Umzug',target:'/app/Umzug',icon:'truck-loading'} ,
-         {name:'Transport',target:'/app/Transport',icon:'shipping-fast'} ,
-         {name:'Entsorgung',target:'/app/Entsorgung',icon:'dumpster'} ,
+         {name:'Umzug',target:'/Umzug',icon:'truck-loading'} ,
+         {name:'Transport',target:'/Transport',icon:'shipping-fast'} ,
+         {name:'Entsorgung',target:'/Entsorgung',icon:'dumpster'} ,
         ]
       };
     },

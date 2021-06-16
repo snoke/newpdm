@@ -33,25 +33,25 @@ const router = new VueRouter({
     routes: [
         { 
                 name: "PDM",
-                path: '/app', 
+                path: '/', 
                 component:  Pdm,
                 props: true,
         },
         { 
                 name: "Entsorgung",
-                path: '/app/Entsorgung', 
+                path: '/Entsorgung', 
                 component:  Entsorgung,
                 props: true,
         },
         { 
                 name: "Transport",
-                path: '/app/Transport', 
+                path: '/Transport', 
                 component:  Transporte,
                 props: true,
         },
         { 
                 name: "Umzug",
-                path: '/app/Umzug', 
+                path: '/Umzug', 
                 component:  Umzüge,
                 props: true,
         },
