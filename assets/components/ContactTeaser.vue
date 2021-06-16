@@ -13,7 +13,7 @@
         </div>
         <div class="row d-flex justify-content-center">
             <div class="col-md d-flex justify-content-center">
-                <span class="card-body text-center"><i style=";" class="fas fa-balance-scale"></i><router-link  class="nav-link" to="/Impressum"> Impressum</router-link>
+                <span class="card-body text-center"><i style=";" class="fas fa-balance-scale"></i><router-link  to="/Impressum"> Impressum</router-link>
                     <p class="row card-text text-center"></p>
                 </span>
             </div>
