@@ -15,6 +15,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router'
 import App from './components/App.vue';
 import Entsorgung from "./components/Entsorgung.vue";
+import Impressum from "./components/Impressum.vue";
 import Transporte from "./components/Transporte.vue";
 import Umzüge from "./components/Umzüge.vue";
 import Pdm from "./components/Pdm.vue";
@@ -47,6 +48,12 @@ const router = new VueRouter({
                 name: "Transport",
                 path: '/Transport', 
                 component:  Transporte,
+                props: true,
+        },
+        { 
+                name: "Impressum",
+                path: '/Impressum', 
+                component:  Impressum,
                 props: true,
         },
         { 

@@ -20,7 +20,7 @@
                  <li class="nav-item divider"></li>
 
                 <li class="nav-item">
-              <a href="/Impressum"  class="nav-link" ><i style=";" :class='"fas fa-balance-scale"'></i> Impressum</a>
+              <router-link  to="/Impressum"  class="nav-link" ><i style=";" :class='"fas fa-balance-scale"'></i> Impressum</router-link>
                 </li>
               </ul>
           </div>
