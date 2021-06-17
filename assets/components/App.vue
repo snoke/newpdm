@@ -50,7 +50,7 @@ export default {
   data () { 
     return {
       text: [
-        'kompetenter','erfahrener','preiswerter','zuverlässiger','schneller','unkomplizierter','freundlicher'
+        'kompetenter','erfahrener','preiswerter','zuverlässiger','schneller','unkomplizierter','freundlicher','professioneller'
       ]
     }
   },
