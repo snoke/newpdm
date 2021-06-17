@@ -1,16 +1,16 @@
 <template>
-    <div class="container  w-100 pt-5">
+    <div class="container  w-100">
         <div class="row d-flex justify-content-center ">
-            <div class="col-md d-flex justify-content-center"><a href="#top"><i class="fas fa-arrow-up"></i></a>
+            <div class="col-md d-flex justify-content-center pb-4 pt-4"><a href="#top"><i class="fas fa-arrow-up"></i></a>
             </div>
       </div>
-        <div class="row d-flex justify-content-center pt-3">
+        <div class="row d-flex justify-content-center pt-0">
             
       <div class="card  pt-0  shadow ">
         <div class="card-body text-primary ">
           <i style="float:right;" :class='"fas fa-balance-scale"'></i>
             <h2 class="card-title text-center " style="font-size:1.8rem;"></h2>
-          <p class="row card-text p-3 text-dark"><ContactForm /></p>
+          <p class="row card-text p-0 text-dark"><ContactForm /></p>
         </div>
       </div>
             <div class="col-md d-flex justify-content-center">
@@ -22,10 +22,6 @@
                 </div>
             </div>
         </div>
-        <div class="row d-flex justify-content-center ">
-            <div class="col-md d-flex justify-content-center"><a href="#top"><i class="fas fa-arrow-up"></i></a>
-            </div>
-      </div>
         <div class="row d-flex justify-content-center">
             <div class="col-md d-flex justify-content-center">
             </div>
@@ -50,6 +46,10 @@
             <div class="col-md d-flex justify-content-center">
             </div>
         </div>
+        <div class="row d-flex justify-content-center ">
+            <div class="col-md d-flex justify-content-center"><a href="#top"><i class="fas fa-arrow-up"></i></a>
+            </div>
+      </div>
     </div>
 </template>
 <script>
