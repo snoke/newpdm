@@ -1,8 +1,11 @@
 <template>
     <div class="container  w-100">
-        <div class="row d-flex justify-content-center ">
-            <div class="col-md d-flex justify-content-center pb-4 pt-4"><a class="link text-primary " @click="scrollToElement"><i class="fas fa-arrow-up"></i></a>
-            </div>
+        <div class="row d-flex justify-content-center pt-4 pb-4">
+            <div class="col-md d-flex justify-content-center"></div>
+            <div class="col-md d-flex justify-content-center"></div>
+            <div class="col-md d-flex justify-content-center"><a class="text-primary link" @click="scrollToElement"><i class="fas fa-arrow-up"></i></a></div>
+            <div class="col-md d-flex justify-content-center"></div>
+            <div class="col-md d-flex justify-content-center"></div>
       </div>
         <div class="row d-flex justify-content-center pt-0">
             
@@ -23,7 +26,11 @@
             </div>
         </div>
         <div class="row d-flex justify-content-center ">
+            <div class="col-md d-flex justify-content-center"></div>
+            <div class="col-md d-flex justify-content-center"></div>
             <div class="col-md d-flex justify-content-center"><a class="text-primary link" @click="scrollToElement"><i class="fas fa-arrow-up"></i></a></div>
+            <div class="col-md d-flex justify-content-center"></div>
+            <div class="col-md d-flex justify-content-center"></div>
       </div>
         <div class="row d-flex justify-content-center">
             <div class="col-md d-flex justify-content-center">
@@ -58,7 +65,22 @@ import ContactForm from './ContactForm.vue';
   components: {
       ContactForm
   },
+  data() {
+ return {
+   prevRoute: null
+ }
+},
+created() {
+},
     methods: {
+        historyBack() {
+            // Use el.scrollIntoView() to instantly scroll to the element
+             this.$router.back();
+        },
+        historyForward() {
+            // Use el.scrollIntoView() to instantly scroll to the element
+             this.$router.forward();
+        },
         scrollToElement() {
             // Use el.scrollIntoView() to instantly scroll to the element
             document.getElementById('top').scrollIntoView({

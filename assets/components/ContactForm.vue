@@ -1,15 +1,16 @@
 <template>
     <div id="Kontakt" class="ContactForm" ref="contactForm">
       <h3 class="text-center w-100  text-secondary text-shadow-sm">Kontakt</h3>
-<form class="pt-3">
+<form class="pt-3"  v-on:submit="submit" id="contactForm">
   <div class="form-group">
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email oder Telefonnr.">
+    <input type="text" name="contact_phoneormail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email oder Telefonnr.">
   </div>  
   <div class="form-group">
-    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Nachricht"></textarea>
+    <textarea name="contact_message" class="form-control" id="exampleFormControlTextarea1" placeholder="Nachricht"></textarea>
   </div>
   <div class="text-center w-100">
-  <button type="submit" class="btn btn-primary">Nachricht senden <i style=";" class="fas fa-envelope"></i></button></div>
+  <button type="submit" class="btn btn-primary">Nachricht senden <i style=";" class="fas fa-envelope"></i></button>
+  {{this.message}}</div>
 </form>
 
     </div>
@@ -21,9 +22,30 @@ export default {
   },
   data () { 
     return {
+      result:null,
+      message:null,
     }
   },
   created () {
   },
+  methods: {
+    fetchData(response) {
+      this.result = response.data.result
+      if (this.result==true) {
+        this.message='message sent!'
+      } else {
+        this.message='message failed'
+      }
+    },
+    submit(e) {
+      e.preventDefault();
+        this.message='sending mail....'
+      var form = document.getElementById('contactForm');
+      var data = new FormData(form);
+      axios
+      .post('/',data)
+      .then(response => (this.fetchData(response)))
+    }
+  }
 };
 </script>

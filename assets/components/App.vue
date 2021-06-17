@@ -18,7 +18,7 @@
       </div>
       <div class="row">
         <div class=" col d-flex justify-content-center pt-2 ">
-          &nbsp;
+          
         </div>
       </div>
       <div id="body_container">
@@ -35,6 +35,7 @@
 var VueTyper = window.VueTyper.VueTyper
 var VueTyper = require('vue-typer').VueTyper
 import Navbar from './Navbar.vue';
+import Breadcrumb from './Breadcrumb.vue';
 import Banner from './Banner.vue';
 import Card from './Card.vue';
 import Footer from './Footer.vue';
@@ -43,6 +44,7 @@ export default {
   components: {
      Navbar,
      Banner,
+     Breadcrumb,
      Card,
      Footer,
      VueTyper
