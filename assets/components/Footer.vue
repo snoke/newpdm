@@ -1,6 +1,10 @@
 <template>
     <div class="container  w-100 pt-5">
         <div class="row d-flex justify-content-center ">
+            <div class="col-md d-flex justify-content-center">asd
+            </div>
+      </div>
+        <div class="row d-flex justify-content-center ">
             
       <div class="card  pt-0  shadow ">
         <div class="card-body text-primary ">
