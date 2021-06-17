@@ -10,7 +10,7 @@
   </div>
   <div class="text-center w-100">
   <button type="submit" class="btn btn-primary">Nachricht senden <i style=";" class="fas fa-envelope"></i></button>
-  <div :class="'mt-3 '+this.style">{{this.message}}</div></div>
+  <div @click="click" :class="'link mt-3 '+this.style">{{this.message}}</div></div>
 </form>
 
     </div>
@@ -30,6 +30,10 @@ export default {
   created () {
   },
   methods: {
+    click() {
+      this.message=null
+      this.style=null;
+    },
     fetchData(response) {
       this.result = response.data.result
       if (this.result==true) {
