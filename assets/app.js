@@ -35,7 +35,7 @@ const router = new VueRouter({
            // if (this.currentRoute.name!='PDM') {
            //     return {selector: '#main_jumbotron'}
            // }
-            return {selector: '#main_jumbotron'}
+            return {selector: '#body_container'}
             //Or for Vue 3:
             //return {el: to.hash}
     },
