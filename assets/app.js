@@ -32,9 +32,9 @@ Vue.use(VueRouter)
 const router = new VueRouter({  
     mode:'history',
     scrollBehavior: function(to, from, savedPosition) {
-           // if (this.currentRoute.name!='PDM') {
-           //     return {selector: '#main_jumbotron'}
-           // }
+            if (this.currentRoute.name=='PDM') {
+             return {selector: '#main_jumbotron'}
+            }
             return {selector: '#body_container'}
             //Or for Vue 3:
             //return {el: to.hash}
