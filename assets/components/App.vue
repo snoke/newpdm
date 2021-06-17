@@ -9,7 +9,7 @@
         </div>
       </div>
       <div class="row">
-        <div class=" col d-flex justify-content-center pt-2">
+        <div class=" col d-flex justify-content-center pt-2  pb-2">
         <p> Ihr&nbsp;</p>
         <p id="typewriter"></p><nobr><vue-typer :text=this.text ></vue-typer></nobr>
         <p>&nbsp;Partner</p>
