@@ -11,8 +11,8 @@
             
       <div class="card   shadow ">
         <div class="card-body text-primary ">
-            <div class="pt-4 ">
-          <i style="float:right;" :class='"fas fa-envelope text-primary"'></i></div>
+            <div class="pt-0 ">
+          <i style="float:right;" :class='"mt-4 fas fa-envelope text-primary"'></i></div>
             <h2 class="card-title text-center " style="font-size:1.8rem;"></h2>
           <p class="row card-text p-0 text-dark"><ContactForm /></p>
         </div>

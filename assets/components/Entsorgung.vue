@@ -4,7 +4,7 @@
       <div class="card col-lg  pt-2  shadow">
         <div class="card-body text-secondary" >
                   <router-link  class="nav-link" to="/">
-                  <i style="float:left;" :class='"fas fa-arrow-left  text-primary"'></i></router-link>
+                  <i style="float:left;" :class='"mt-2 fas fa-arrow-left  text-primary"'></i></router-link>
           <i style="float:right;" :class='"fas fa-dumpster  text-primary"'></i>
             <h2 class="card-title text-center w-100 pr-5 text-shadow-sm" style="font-size:1.8rem;">Entsorgung</h2>
             
