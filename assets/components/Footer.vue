@@ -1,7 +1,7 @@
 <template>
     <div class="container  w-100">
         <div class="row d-flex justify-content-center ">
-            <div class="col-md d-flex justify-content-center pb-4 pt-4"><a href="#top"><i class="fas fa-arrow-up"></i></a>
+            <div class="col-md d-flex justify-content-center pb-4 pt-4"><a class="link text-primary " @click="scrollToElement"><i class="fas fa-arrow-up"></i></a>
             </div>
       </div>
         <div class="row d-flex justify-content-center pt-0">
@@ -47,7 +47,7 @@
             </div>
         </div>
         <div class="row d-flex justify-content-center ">
-            <div class="col-md d-flex justify-content-center"><a href="#top"><i class="fas fa-arrow-up"></i></a>
+            <div class="col-md d-flex justify-content-center"><a class="text-primary link" @click="scrollToElement"><i class="fas fa-arrow-up"></i></a>
             </div>
       </div>
     </div>
@@ -58,6 +58,14 @@ import ContactForm from './ContactForm.vue';
   name: "Footer",
   components: {
       ContactForm
-  }
-  };
+  },
+    methods: {
+        scrollToElement() {
+            // Use el.scrollIntoView() to instantly scroll to the element
+            document.getElementById('top').scrollIntoView({
+                behavior: "smooth"
+            });
+        }
+    },
+};
 </script>

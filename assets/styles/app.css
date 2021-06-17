@@ -37,3 +37,6 @@ body {
 .text-shadow-sm { 
   text-shadow: 5px 10px 19px #ccc,-5px 8px 10px #ccc;
 }
+.link:hover {
+    cursor:pointer;
+}

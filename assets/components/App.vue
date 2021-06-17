@@ -64,7 +64,14 @@ export default {
           return this.$route.name;
       }
   },
-  methods: {
+
+    methods: {
+      scrollToElement() {
+          // Use el.scrollIntoView() to instantly scroll to the element
+                document.getElementById('Kontakt').scrollIntoView({
+        behavior: "smooth"
+      });
+    },
     showBanner() {
       if (this.$route.name=='PDM') {
         return true;

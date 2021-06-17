@@ -20,7 +20,7 @@
                  <li class="nav-item divider"></li>
 
                 <li class="nav-item">
-                  <a @click="scrollToElement" href="#Kontakt"  class="nav-link" ><i style=";" :class='"fas fa-envelope"'></i> Kontakt</a>
+                  <a @click="scrollToElement" class="nav-link link" ><i style=";" :class='"fas fa-envelope"'></i> Kontakt</a>
                 </li>
               </ul>
           </div>
