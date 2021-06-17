@@ -9,7 +9,7 @@
     <textarea name="contact_message" class="form-control" id="exampleFormControlTextarea1" placeholder="Nachricht"></textarea>
   </div>
   <div class="text-center w-100">
-  <button type="submit" class="btn btn-primary">Nachricht senden <i style=";" class="fas fa-envelope"></i></button>
+  <button type="submit" class="btn btn-primary  pl-3">Nachricht senden <i style=";" class="fas fa-envelope"></i></button>
   <div @click="click" :class="'link mt-3 '+this.style">{{this.message}}</div></div>
 </form>
 
