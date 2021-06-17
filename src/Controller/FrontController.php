@@ -32,7 +32,7 @@ class FrontController extends AbstractController
     {
         
 
-        $contact_phoneormail = $request->request->get('contact_phoneormail');
+        $contact_phoneormail = preg_replace("/\s+/", "", $request->request->get('contact_phoneormail'));
         $contact_message = $request->request->get('contact_message');
         
         $emailConstraint = new Assert\Email();
