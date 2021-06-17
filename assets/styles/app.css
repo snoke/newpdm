@@ -32,8 +32,8 @@ body {
   background-size: cover;
 }
 .text-shadow-lg { 
-  text-shadow: 5px 15px 19px #bbb,-5px 8px 16px #bbb;
+  text-shadow: 5px 15px 19px #ccc,-5px 8px 16px #ccc;
 }
 .text-shadow-sm { 
-  text-shadow: 5px 15px 19px #ccc,-5px 8px 16px #ccc;
+  text-shadow: 5px 10px 19px #ccc,-5px 8px 10px #ccc;
 }
