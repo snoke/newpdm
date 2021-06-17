@@ -2,7 +2,7 @@
   <div style="height:100%;" id="top">
     <Banner />
     <Navbar />
-    <div class="jumbotron  shadow main_jumbotron" style=" background-position: bottom;background-image: url('/room-designer.png') ;width:100%;height:auto;">
+    <div class="jumbotron  shadow main_jumbotron" id="main_jumbotron" style=" background-position: bottom;background-image: url('/room-designer.png') ;width:100%;height:auto;">
       <div class="row">
         <div class=" col d-flex justify-content-center pt-2">
         <h1 class="fw-bold text-primary fst-italic">PDM</h1>
