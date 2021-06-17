@@ -8,7 +8,7 @@
             
       <div class="card  pt-0  shadow ">
         <div class="card-body text-primary ">
-          <i style="float:right;" :class='"fas fa-balance-scale"'></i>
+          <i style="float:right;" :class='"fas fa-envelope"'></i>
             <h2 class="card-title text-center " style="font-size:1.8rem;"></h2>
           <p class="row card-text p-0 text-dark"><ContactForm /></p>
         </div>
