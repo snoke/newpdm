@@ -1,7 +1,7 @@
 <template>
     <div id="Kontakt" class="ContactForm" ref="contactForm">
-      <h3 class="text-center w-100  text-secondary text-shadow-sm">Kontakt</h3>
-<form class="pt-3"  v-on:submit="submit" id="contactForm">
+      <h3 class="text-center w-100  text-secondary text-shadow-sm pl-1">Kontakt</h3>
+<form class="pt-4"  v-on:submit="submit" id="contactForm">
   <div class="form-group">
     <input type="text" name="contact_phoneormail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email oder Telefonnr.">
   </div>  

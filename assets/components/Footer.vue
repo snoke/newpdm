@@ -9,9 +9,10 @@
       </div>
         <div class="row d-flex justify-content-center pt-0">
             
-      <div class="card  pt-0  shadow ">
+      <div class="card   shadow ">
         <div class="card-body text-primary ">
-          <i style="float:right;" :class='"fas fa-envelope text-primary"'></i>
+            <div class="pt-4 ">
+          <i style="float:right;" :class='"fas fa-envelope text-primary"'></i></div>
             <h2 class="card-title text-center " style="font-size:1.8rem;"></h2>
           <p class="row card-text p-0 text-dark"><ContactForm /></p>
         </div>
