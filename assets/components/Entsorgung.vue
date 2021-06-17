@@ -2,7 +2,7 @@
   <div class="container" id="Entsorgung">
     <div class="row">
       <div class="card col-lg shadow">
-        <div class="card-body text-secondary" >
+        <div class="card-body text-secondary pt-3" >
                   <router-link  class="nav-link" to="/">
                   <i style="float:left;" :class='"mt-2 fas fa-arrow-left  text-primary"'></i></router-link>
           <i style="float:right;" :class='"fas fa-dumpster  text-primary"'></i>
