@@ -6,9 +6,9 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse " id="navbarNav">
           <div class="row w-100">
-            <div class="col">
+            <div class="col d-flex justify-content-center">
               <ul class="navbar-nav">
                 <li class="nav-item" v-for="e of items">
                   <router-link  class="nav-link" :to=e.target><i style=";" :class='"fas fa-"+e.icon'></i> {{e.name}}</router-link>
