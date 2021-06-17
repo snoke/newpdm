@@ -22,6 +22,9 @@
                 </div>
             </div>
         </div>
+        <div class="row d-flex justify-content-center ">
+            <div class="col-md d-flex justify-content-center"><a class="text-primary link" @click="scrollToElement"><i class="fas fa-arrow-up"></i></a></div>
+      </div>
         <div class="row d-flex justify-content-center">
             <div class="col-md d-flex justify-content-center">
             </div>
@@ -46,10 +49,6 @@
             <div class="col-md d-flex justify-content-center">
             </div>
         </div>
-        <div class="row d-flex justify-content-center ">
-            <div class="col-md d-flex justify-content-center"><a class="text-primary link" @click="scrollToElement"><i class="fas fa-arrow-up"></i></a>
-            </div>
-      </div>
     </div>
 </template>
 <script>
