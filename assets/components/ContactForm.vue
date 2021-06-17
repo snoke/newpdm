@@ -1,6 +1,6 @@
 <template>
     <div id="Kontakt" class="ContactForm" ref="contactForm">
-      <h3 class="text-center w-100  text-primary text-shadow-sm">Kontakt</h3>
+      <h3 class="text-center w-100  text-secondary text-shadow-sm">Kontakt</h3>
 <form class="pt-3">
   <div class="form-group">
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email oder Telefonnr.">

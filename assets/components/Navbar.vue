@@ -2,7 +2,7 @@
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light shadow">
       <div class="container-fluid">
         <router-link class="navbar-brand fw-bold text-primary fst-italic text-shadow-sm" to="/">PDM</router-link> 
-                <a href="tel:#"  class="nav-link" ><i style=";" :class='"fas fa-phone"'></i> 0190-666666</a>
+                <a href="tel:#"  class="nav-link text-secondary" ><i style=";" :class='"fas fa-phone"'></i> 0190-666666</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
