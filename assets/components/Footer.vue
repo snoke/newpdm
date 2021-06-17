@@ -1,10 +1,10 @@
 <template>
     <div class="container  w-100 pt-5">
         <div class="row d-flex justify-content-center ">
-            <div class="col-md d-flex justify-content-center">asd
+            <div class="col-md d-flex justify-content-center"><a href="#top"><i class="fas fa-arrow-up"></i></a>
             </div>
       </div>
-        <div class="row d-flex justify-content-center ">
+        <div class="row d-flex justify-content-center pt-3">
             
       <div class="card  pt-0  shadow ">
         <div class="card-body text-primary ">
@@ -22,6 +22,10 @@
                 </div>
             </div>
         </div>
+        <div class="row d-flex justify-content-center ">
+            <div class="col-md d-flex justify-content-center"><a href="#top"><i class="fas fa-arrow-up"></i></a>
+            </div>
+      </div>
         <div class="row d-flex justify-content-center">
             <div class="col-md d-flex justify-content-center">
             </div>
