@@ -10,7 +10,7 @@
   </div>
   <div class="text-center w-100">
   <button type="submit" class="btn btn-primary">Nachricht senden <i style=";" class="fas fa-envelope"></i></button>
-  {{this.message}}</div>
+  <div :class="'mt-3 '+this.style">{{this.message}}</div></div>
 </form>
 
     </div>
@@ -24,6 +24,7 @@ export default {
     return {
       result:null,
       message:null,
+      style:null,
     }
   },
   created () {
@@ -32,13 +33,16 @@ export default {
     fetchData(response) {
       this.result = response.data.result
       if (this.result==true) {
-        this.message='message sent!'
+        this.style="alert-success"
+        this.message='Nachricht erfolgreich gesendet!'
       } else {
-        this.message='message failed'
+        this.style="alert-danger"
+        this.message='Die Nachricht konnte nicht gesendet werden...'
       }
     },
     submit(e) {
       e.preventDefault();
+      this.style=null
         this.message='sending mail....'
       var form = document.getElementById('contactForm');
       var data = new FormData(form);

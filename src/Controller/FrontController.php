@@ -50,7 +50,7 @@ class FrontController extends AbstractController
             $contact_phoneormail,
             $phoneConstraint
         );
-        if (count($mailCheckErrors)>0 && count($phonecheckErrors)>0) {
+        if (strlen($contact_phoneormail)<2 || (count($mailCheckErrors)>0 && count($phonecheckErrors)>0)) {
            
             return new JsonResponse([
                 'result' => false,
@@ -63,10 +63,11 @@ class FrontController extends AbstractController
                 'response' => 'no message',
             ]);
         }
+        $message= '<'.$contact_phoneormail . '>:' . $contact_message;
         $from='stefan@stefan-sander.online';
         $to='stefan@stefan-sander.online';
         $response= shell_exec (
-                'sendemail -f '. $from.' -t '.$to.' -u subject -m '. escapeshellarg($contact_message) . ' -s '.$_ENV['SMTP_SERVER'].':587 -o tls=yes -xu '.$_ENV['SMTP_USER'].' -xp '.$_ENV['SMTP_USER_PASSWORD']
+                'sendemail -f '. $from.' -t '.$to.' -u subject -m '. escapeshellarg($message) . ' -s '.$_ENV['SMTP_SERVER'].':587 -o tls=yes -xu '.$_ENV['SMTP_USER'].' -xp '.$_ENV['SMTP_USER_PASSWORD']
             );
             return new JsonResponse([
                 'result' => true,
