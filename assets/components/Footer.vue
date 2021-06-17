@@ -34,9 +34,9 @@
                     12345 Pdmstadt</div>
                 </div>
             </div>
-            <div class="col-md d-flex justify-content-center">
-                <div class="card-body text-center" ><i style=";" class="fas fa-copyright"></i> <nobr>code & design</nobr>
-                    <p class="row card-text text-center"  style="font-size:0.9rem;"><a href="https://www.stefan-sander.online" target="_blank"><nobr>Stefan Sander</nobr></a></p>
+            <div class="col-md d-flex justify-content-center text-nowrap">
+                <div class="card-body text-center text-nowrap" ><i style=";" class="fas fa-copyright"></i> <nobr>code & design</nobr>
+                    <p class="row card-text text-center text-nowrap"  style="font-size:0.9rem;"><a href="https://www.stefan-sander.online" target="_blank" class="text-nowrap"><nobr>Stefan Sander</nobr></a></p>
                 </div>
             </div>
             <div class="col-md d-flex justify-content-center">
