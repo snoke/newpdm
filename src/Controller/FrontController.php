@@ -54,13 +54,13 @@ class FrontController extends AbstractController
            
             return new JsonResponse([
                 'result' => false,
-                'response' => "Not an E-mail or Phone number",
+                'response' => "Keine korrekte Email oder Telefonnummer eingegeben.",
             ]);
         }
         if (strlen($contact_message)<1) {
             return new JsonResponse([
                 'result' => false,
-                'response' => 'no message',
+                'response' => 'Bitte hinterlassen Sie eine Nachricht.',
             ]);
         }
         $message= '<'.$contact_phoneormail . '>:' . $contact_message;

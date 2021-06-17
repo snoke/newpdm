@@ -41,7 +41,7 @@ export default {
         this.message='Nachricht erfolgreich gesendet!'
       } else {
         this.style="alert-danger"
-        this.message='Die Nachricht konnte nicht gesendet werden...'
+        this.message=response.data.response
       }
     },
     submit(e) {
