@@ -9,7 +9,7 @@
         </div>
       </div>
       <div class="row">
-        <div class=" col d-flex justify-content-center pt-2 ">
+        <div class=" col d-flex justify-content-center pt-2 fst-italic ">
           <p> Ihr&nbsp;</p>
           <p id="typewriter"></p><nobr><vue-typer :text=this.text ></vue-typer></nobr>
           <p>&nbsp;Partner</p>
@@ -50,7 +50,7 @@ export default {
   data () { 
     return {
       text: [
-        'kompetenter','erfahrener','preiswerter','zuverlässiger','schneller','unkomplizierter'
+        'kompetenter','erfahrener','preiswerter','zuverlässiger','schneller','unkomplizierter','freundlicher'
       ]
     }
   },
