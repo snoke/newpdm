@@ -31,3 +31,9 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+.text-shadow-lg { 
+  text-shadow: 5px 15px 19px #bbb,-5px 8px 16px #bbb;
+}
+.text-shadow-sm { 
+  text-shadow: 5px 15px 19px #ccc,-5px 8px 16px #ccc;
+}

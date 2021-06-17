@@ -4,7 +4,7 @@
       <div class="card col-lg  pt-2  shadow">
         <div class="card-body text-primary">
           <i style="float:right;" :class='"fas fa-shipping-fast"'></i>
-            <h2 class="card-title text-center w-100" style="font-size:1.8rem;">Transport</h2>
+            <h2 class="card-title text-center w-100 text-shadow-sm" style="font-size:1.8rem;">Transport</h2>
             
           <p class="row card-text p-3 text-dark">Transport</p>
         </div>

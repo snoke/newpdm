@@ -28,10 +28,10 @@
             </div>
             <div class="col-md d-flex justify-content-center">
                 <div class="card-body text-center justify-content-center text-primary fw-bold fst-italic">
-                     PDM GmbH
-                    <p class="row text-center justify-content-center text-dark fw-normal" style="font-size:0.9rem;">
+                     <i style=";" class="fas fa-address-card text-dark"></i> PDM GmbH
+                    <div class="row text-center justify-content-center text-dark fw-normal" style="font-size:0.9rem;">
                     Pdmstraße 123<br />
-                    12345 Pdmstadt</p>
+                    12345 Pdmstadt</div>
                 </div>
             </div>
             <div class="col-md d-flex justify-content-center">
