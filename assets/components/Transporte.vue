@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="card col-lg  pt-2  shadow">
+      <div class="card col-lg   shadow">
         <div class="card-body text-secondary">
                   <router-link  class="nav-link" to="/">
                   <i style="float:left;" :class='"mt-2 fas fa-arrow-left  text-primary"'></i></router-link>
