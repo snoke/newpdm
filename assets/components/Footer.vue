@@ -35,8 +35,8 @@
                 </div>
             </div>
             <div class="col-md d-flex justify-content-center">
-                <div class="card-body text-center" ><i style=";" class="fas fa-copyright"></i> code & design
-                    <p class="row card-text text-center"  style="font-size:0.9rem;"><a href="https://www.stefan-sander.online" target="_blank">Stefan Sander</a></p>
+                <div class="card-body text-center" ><i style=";" class="fas fa-copyright"></i> <nobr>code & design</nobr>
+                    <p class="row card-text text-center"  style="font-size:0.9rem;"><a href="https://www.stefan-sander.online" target="_blank"><nobr>Stefan Sander</nobr></a></p>
                 </div>
             </div>
             <div class="col-md d-flex justify-content-center">
