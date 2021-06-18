@@ -3,12 +3,12 @@
     <Banner />
     <Navbar />
     <div class="jumbotron  shadow main_jumbotron" style=" background-position: bottom;background-image: url('/room-designer.png') ;width:100%;height:auto;margin-bottom:0px;">
-      <div class="row">
+      <div class="row"  id="main_jumbotron">
         <div class=" col d-flex justify-content-center pt-2">
         <h1 class="fw-bold text-primary fst-italic text-shadow-lg">PDM</h1>
         </div>
       </div>
-      <div id="main_jumbotron" class="row">
+      <div class="row">
         <div class=" col d-flex justify-content-center pt-2 fst-italic " >
           <p> Ihr&nbsp;</p>
           <p id="typewriter"></p><nobr><vue-typer :text=this.text ></vue-typer></nobr>
