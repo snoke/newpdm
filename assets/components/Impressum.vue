@@ -7,7 +7,7 @@
                   <i style="float:left;" :class='"mt-2 fas fa-arrow-left  text-primary"'></i></router-link>
           
           <i style="float:right;" :class='"fas fa-balance-scale  text-primary"'></i>
-            <h2 class="card-title text-center w-100 pr-4 text-shadow-sm" style="font-size:1.8rem;">Impressum</h2>
+            <h2 class="card-title text-center w-100 pr-5 text-shadow-sm" style="font-size:1.8rem;">Impressum</h2>
             
           <p class="row card-text p-3 text-dark"><div class="impressum"><p>Angaben gemäß § 5 TMG</p><p>Max Muster <br> 
 Musterweg<br> 
