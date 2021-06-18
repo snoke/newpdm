@@ -1,5 +1,5 @@
 <template>
-    <div id="Kontakt" class="ContactForm" ref="contactForm">
+    <div id="" class="ContactForm" ref="contactForm">
       <h3 class="text-center w-100  text-secondary text-shadow-sm pl-3">Kontakt</h3>
 <form class="pt-4"  v-on:submit="submit" id="contactForm">
   <div class="form-group">
