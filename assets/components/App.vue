@@ -2,14 +2,14 @@
   <div style="height:100%;" id="top">
     <Banner />
     <Navbar />
-    <div class="jumbotron  shadow main_jumbotron" id="main_jumbotron" style=" background-position: bottom;background-image: url('/room-designer.png') ;width:100%;height:auto;margin-bottom:0px;">
+    <div class="jumbotron  shadow main_jumbotron" style=" background-position: bottom;background-image: url('/room-designer.png') ;width:100%;height:auto;margin-bottom:0px;">
       <div class="row">
         <div class=" col d-flex justify-content-center pt-2">
         <h1 class="fw-bold text-primary fst-italic text-shadow-lg">PDM</h1>
         </div>
       </div>
       <div class="row">
-        <div class=" col d-flex justify-content-center pt-2 fst-italic ">
+        <div class=" col d-flex justify-content-center pt-2 fst-italic " id="main" >
           <p> Ihr&nbsp;</p>
           <p id="typewriter"></p><nobr><vue-typer :text=this.text ></vue-typer></nobr>
           <p>&nbsp;Partner</p>
