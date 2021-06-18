@@ -47,7 +47,7 @@
     methods: {
       scrollToElement() {
           // Use el.scrollIntoView() to instantly scroll to the element
-                document.getElementById('main').scrollIntoView({
+                document.getElementById('main_jumbotron').scrollIntoView({
         behavior: "smooth"
       });
       },

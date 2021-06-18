@@ -8,16 +8,11 @@
         <h1 class="fw-bold text-primary fst-italic text-shadow-lg">PDM</h1>
         </div>
       </div>
-      <div class="row">
+      <div id="main_jumbotron" class="row">
         <div class=" col d-flex justify-content-center pt-2 fst-italic " >
           <p> Ihr&nbsp;</p>
           <p id="typewriter"></p><nobr><vue-typer :text=this.text ></vue-typer></nobr>
           <p>&nbsp;Partner</p>
-          
-        </div>
-      </div>
-      <div class="row">
-        <div class=" col d-flex justify-content-center pt-2 "  id="main">
           
         </div>
       </div>
