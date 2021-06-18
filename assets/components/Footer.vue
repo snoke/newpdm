@@ -7,7 +7,7 @@
             <div class="col-md d-flex justify-content-center"></div>
             <div class="col-md d-flex justify-content-center"></div>
       </div>
-        <div  id="Kontakt" class="row d-flex justify-content-center pt-0">
+        <div  id="Kontakt" class="row d-flex justify-content-center pt-1">
             <div class="col-md d-flex justify-content-center">
             </div>
       </div>
