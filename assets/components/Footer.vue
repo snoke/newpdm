@@ -7,9 +7,13 @@
             <div class="col-md d-flex justify-content-center"></div>
             <div class="col-md d-flex justify-content-center"></div>
       </div>
+        <div  id="Kontakt" class="row d-flex justify-content-center pt-0">
+            <div class="col-md d-flex justify-content-center">
+            </div>
+      </div>
         <div class="row d-flex justify-content-center pt-0">
             
-      <div id="Kontakt" class="card   shadow ">
+      <div class="card   shadow ">
         <div class="card-body text-primary ">
             <div class="pt-0 ">
           <i style="float:right;" :class='"mt-4 fas fa-envelope text-primary"'></i></div>
